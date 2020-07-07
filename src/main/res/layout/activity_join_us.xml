@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".JoinUs">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="1. Tempat Lahir (sesuai Ijazah)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/tempatlahir"
+            android:hint="Tulis tempat lahir" />
+
+
+        <TextView
+            android:text="2. Tanggal lahir (sesuai Ijazah)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/tanggallahir"
+            android:hint="Tanggal / Bulan / Tahun" />
+
+        <TextView
+            android:text="3. Jenis Kelamin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/jeniz"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/btn01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laki-Laki" />
+
+            <RadioButton
+
+                android:id="@+id/btn02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perempuan" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/userjeniskelamin"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:text="4. Golongan Darah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/gol"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/btn03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A" />
+
+            <RadioButton
+                android:id="@+id/btn04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B" />
+
+            <RadioButton
+                android:id="@+id/btn05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O" />
+
+            <RadioButton
+                android:id="@+id/btn06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AB" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/usergolongandarah"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:text="5. Suku asal Marga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/usersukuasalmarga"
+            android:hint="Tulis Nama Belakang" />
+
+        <TextView
+            android:text="6. Alamat Rumah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="         -Desa : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/userdesa"
+            android:hint="Tulis Desa" />
+
+        <TextView
+            android:text="         -Kecamatan : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/userkecamatan"
+            android:hint="Tulis Kecamatan" />
+
+        <TextView
+            android:text="         -Kabupaten : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/userkabupaten"
+            android:hint="Tulis Kabupaten" />
+
+        <TextView
+            android:text="         -Propinsi : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/userpropinsi"
+            android:hint="Tulis Propinsi" />
+
+        <TextView
+            android:text="         -Kode Pos : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/userkodepos"
+            android:hint="Masukan Kode Pos" />
+
+        <TextView
+            android:text="         -Nomor Hp : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/usernohp"
+            android:hint="Masukan Nomor telepon" />
+
+        <TextView
+            android:text="         -Alamat Email : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/email"
+            android:hint="Retype Your Email" />
+
+        <TextView
+            android:text="6. Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/ztat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/btn07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belum Menikah" />
+
+            <RadioButton
+                android:id="@+id/btn08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menikah" />
+
+            <RadioButton
+                android:id="@+id/btn09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cerai" />
+
+            <RadioButton
+                android:id="@+id/btn010"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Janda/Duda" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/userstatus"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:text="8. Agama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:orientation="vertical"
+            android:id="@+id/agm"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+
+                android:id="@+id/btn011"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GMAHK (Advent)" />
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/btn012"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Protestan" />
+
+            <RadioButton
+
+                android:id="@+id/btn013"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Katolik" />
+
+            <RadioButton
+                android:id="@+id/btn014"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buddha" />
+
+            <RadioButton
+
+                android:id="@+id/btn015"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hindu" />
+
+            <RadioButton
+
+                android:id="@+id/btn016"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kong Hu Cu" />
+
+            <RadioButton
+
+                android:id="@+id/btn017"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Islam" />
+
+            <RadioButton
+                android:id="@+id/btn018"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lainnya" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/useragama"
+                />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:text="9. Asal SMA/SMK/Sederajat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/userasalsma"
+            android:hint="Tulis asal sekolah" />
+
+        <TextView
+            android:text="10. Alamat Sekolah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="         -Desa : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/asdesa"
+            android:hint="Tulis Desa" />
+
+        <TextView
+            android:text="         -Kecamatan : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/askecamatan"
+            android:hint="Tulis Kecamatan" />
+
+        <TextView
+            android:text="         -Kabupaten : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/askabupaten"
+            android:hint="Tulis Kabupaten" />
+
+        <TextView
+            android:text="         -Propinsi : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/aspropinsi"
+            android:hint="Tulis Propinsi" />
+
+        <TextView
+            android:text="         -Kode Pos : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/askodepos"
+            android:hint="Masukan Kode Pos" />
+
+        <TextView
+            android:text="11. Nama Ayah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/fatnama"
+            android:hint="Tulis nama Ayah" />
+
+
+        <TextView
+            android:text="Alamat Rumah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="         -Desa : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/fatdesa"
+            android:hint="Tulis Desa" />
+
+        <TextView
+            android:text="         -Kecamatan : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/fatkecamatan"
+            android:hint="Tulis Kecamatan" />
+
+        <TextView
+            android:text="         -Kabupaten : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/fatkabupaten"
+            android:hint="Tulis Kabupaten" />
+
+        <TextView
+            android:text="         -Propinsi : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/fatpropinsi"
+            android:hint="Tulis Kabupaten" />
+
+        <TextView
+            android:text="         -Kode Pos : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/fatkodepos"
+            android:hint="Masukan Kode Pos" />
+
+        <TextView
+            android:text="         -Nomor Hp : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/fatnohp"
+            android:hint="Masukan Nomor telepon Ayah" />
+
+        <TextView
+            android:text="         -Alamat Email : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/fatemail"
+            android:hint="Tulis Email Ayah" />
+
+        <TextView
+            android:text="Pendidikan Ayah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/fatpen"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp">
+
+
+            <RadioButton
+                android:id="@+id/btn019"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SD" />
+
+            <RadioButton
+                android:id="@+id/btn020"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMP" />
+
+            <RadioButton
+                android:id="@+id/btn021"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMA" />
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/btn022"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S 1" />
+
+            <RadioButton
+                android:id="@+id/btn023"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S 2" />
+
+            <RadioButton
+                android:id="@+id/btn024"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S 3" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/fatpendidikan"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:text="Agama Ayah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:orientation="vertical"
+            android:id="@+id/fatagm"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/btn025"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GMAHK (Advent)" />
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/btn026"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Protestan" />
+
+            <RadioButton
+                android:id="@+id/btn027"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Katolik" />
+
+            <RadioButton
+                android:id="@+id/btn028"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buddha" />
+
+            <RadioButton
+                android:id="@+id/btn029"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hindu" />
+
+            <RadioButton
+                android:id="@+id/btn030"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kong Hu Cu" />
+
+            <RadioButton
+                android:id="@+id/btn031"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Islam" />
+
+            <RadioButton
+                android:id="@+id/btn032"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lainnya" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/fatagama"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:text="12. Nama Ibu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/ibunama"
+            android:hint="Tulis nama Ibu" />
+
+        <TextView
+            android:text="Alamat Rumah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="         -Desa : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/ibudesa"
+            android:hint="Tulis Desa" />
+
+        <TextView
+            android:text="         -Kecamatan : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/ibukecamatan"
+            android:hint="Tulis Kecamatan" />
+
+        <TextView
+            android:text="         -Kabupaten : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/ibukabupaten"
+            android:hint="Tulis Kabupaten" />
+
+        <TextView
+            android:text="         -Propinsi : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/ibupropinsi"
+            android:hint="Tulis Propinsi" />
+
+        <TextView
+            android:text="         -Kode Pos : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/ibukodepos"
+            android:hint="Masukan Kode Pos" />
+
+        <TextView
+            android:text="         -Nomor Hp : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/ibunohp"
+            android:hint="Masukan Nomor telepon Ibu" />
+
+        <TextView
+            android:text="         -Alamat Email : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/ibuemail"
+            android:hint="Tulis Email Ibu" />
+
+        <TextView
+            android:text="Pendidikan Ibu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/mapen"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp">
+
+
+            <RadioButton
+                android:id="@+id/btn033"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SD" />
+
+            <RadioButton
+                android:id="@+id/btn034"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMP" />
+
+            <RadioButton
+                android:id="@+id/btn035"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMA" />
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/btn036"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S 1" />
+
+            <RadioButton
+                android:id="@+id/btn037"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S 2" />
+
+            <RadioButton
+                android:id="@+id/btn038"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S 3" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/ibupendidikan"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:text="Agama Ibu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:orientation="vertical"
+            android:id="@+id/maagm"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/btn039"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GMAHK (Advent)" />
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/btn040"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Protestan" />
+
+            <RadioButton
+                android:id="@+id/btn041"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Katolik" />
+
+            <RadioButton
+                android:id="@+id/btn042"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buddha" />
+
+            <RadioButton
+                android:id="@+id/btn043"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hindu" />
+
+            <RadioButton
+                android:id="@+id/btn044"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kong Hu Cu" />
+
+            <RadioButton
+                android:id="@+id/btn045"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Islam" />
+
+            <RadioButton
+                android:id="@+id/btn046"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lainnya" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/ibuagama"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:text="13. Nama Wali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/wlnama"
+            android:hint="Tulis nama Wali" />
+
+
+        <TextView
+            android:text="Alamat Rumah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="         -Desa : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/wldesa"
+            android:hint="Tulis Desa" />
+
+        <TextView
+            android:text="         -Kecamatan : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/wlkecamatan"
+            android:hint="Tulis Kecamatan" />
+
+        <TextView
+            android:text="         -Kabupaten : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/wlkabupaten"
+            android:hint="Tulis Kabupaten" />
+
+        <TextView
+            android:text="         -Propinsi : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/wlpropinsi"
+            android:hint="Tulis Propinsi" />
+
+        <TextView
+            android:text="         -Kode Pos : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/wlkodepos"
+            android:hint="Masukan Kode Pos" />
+
+        <TextView
+            android:text="         -Nomor Hp : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/wlnohp"
+            android:hint="Masukan Nomor telepon Wali" />
+
+        <TextView
+            android:text="         -Alamat Email : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/wlemail"
+            android:hint="Tulis Email Wali" />
+
+        <TextView
+            android:text="Pendidikan Wali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/wlpen"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp">
+
+
+            <RadioButton
+                android:id="@+id/btn047"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SD" />
+
+            <RadioButton
+                android:id="@+id/btn048"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMP" />
+
+            <RadioButton
+                android:id="@+id/btn049"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMA" />
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/btn050"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S 1" />
+
+            <RadioButton
+                android:id="@+id/btn051"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S 2" />
+
+            <RadioButton
+                android:id="@+id/btn052"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S 3" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/wlpendidikan"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:text="Agama Wali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:orientation="vertical"
+            android:id="@+id/wlagm"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/btn053"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GMAHK (Advent)" />
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/btn054"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Protestan" />
+
+            <RadioButton
+                android:id="@+id/btn055"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Katolik" />
+
+            <RadioButton
+                android:id="@+id/btn056"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buddha" />
+
+            <RadioButton
+                android:id="@+id/btn057"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hindu" />
+
+            <RadioButton
+                android:id="@+id/btn058"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kong Hu Cu" />
+
+            <RadioButton
+                android:id="@+id/btn059"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Islam" />
+
+            <RadioButton
+                android:id="@+id/btn060"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lainnya" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/wlagama"
+                />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="Kirim Data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/krimdata"
+                android:layout_weight="1" />
+
+            <Button
+                android:visibility="gone"
+                android:text="Ne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nex"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark2"
+    tools:context=".Te">
+
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:src="@drawable/mapsssss"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_below="@id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:id="@+id/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="1. Gedung Kuliah 1 (GK1) \nInfo: \nGedung ini biasa menjadi tempat mengApprove mahasiswa"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="23"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_below="@id/a1"
+                android:id="@+id/a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="2. Gedung Administrasi (GA) \nInfo: \nGedung yang satu ini digunakan untuk pembayaran serta pengambilan bukti pembayaran"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="23"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_below="@id/a2"
+                android:id="@+id/a3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="3. Asrama Edelweiss \nInfo:\nAsrama Perempuan dengan facilitas AC, Wifi, dan kamar mandi dalam"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="18"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_below="@id/a3"
+                android:id="@+id/a4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="4. Cafetaria (Dining)\nInfo:\nTempat untuk berkonsultasi untuk peminatan Fakultas yang diminati, juga Tempat untuk makan dan [Ibadah Asrama Crystal]"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="20"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_below="@id/a4"
+                android:id="@+id/a5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="5. Asrama Crystal\nInfo:\nAsrama Laki-laki dengan fasilitas Wifi, kamar untuk 4 orang dan untuk Crystal baru tersedia kamar mandi dalam, juga AC"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="16"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_below="@id/a5"
+                android:id="@+id/a6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="6. Gedung Kuliah 2 (GK2)\Info:\nBiasa digunakan untuk test kesehatan"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="23"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_below="@id/a6"
+                android:id="@+id/a7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="7. Asrama Bougenville\nInfo:\nAsrama perempuan dengan fasilitas Wifi dan AC"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="14"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_below="@id/a7"
+                android:id="@+id/a8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="8. Stuent Canteen (SC)\nInfo:\nDigunakan Untuk membeli makanan ringan dan nasi kuning"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="20"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_below="@id/a8"
+                android:id="@+id/a9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="9. Asrama Geneset\nInfo:\nDigunakan untuk student Labor \ student pekerja dalam campus"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="15"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_below="@id/a9"
+                android:id="@+id/a10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="10. Asrama Jasmine\nInfo:\nAsrama perempuan dengan fasilitas yang agak mewah AC, kamar mandi dalam dan Wifi"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="15"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_below="@id/a10"
+                android:id="@+id/a11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="11. Asrama Guest House\nInfo:\nAsrama Laki?laki dengan fasilitas yang mewah (fasilitas tidak diketahui)"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="20"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_below="@id/a11"
+                android:id="@+id/a12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="12. Pioneer Chapel (PC)\nInfo:\nDigunkan untuk berIbadah"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="20"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_below="@id/a12"
+                android:id="@+id/a13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="13. Gedung Kuliah 3 (GK3)\nInfo:\nBiasa digunakan untuk pengambilan foto dan ID"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="20"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_below="@id/a13"
+                android:id="@+id/a14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="14. Prayer Garden (PC)\nInfo:\nTempat untuk berdoa(?)"
+                app:trimExpandedText="@string/read_less"
+                app:trimCollapsedText="@string/read_more"
+                app:trimMode="trimModeLength"
+                app:trimLength="15"
+                app:colorClickableText="@android:color/holo_green_dark"/>
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

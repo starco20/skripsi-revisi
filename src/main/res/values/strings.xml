@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">App Unklab</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_join_us">JoinUs</string>
+
+    <string name="def_text">
+        "Persyaratan Pendaftaran antar lain sebagai berikut\n\n
+        1.  Ijazah SMMT asli\n
+        2.  Nomor Ijazah\n
+        3.  3 Lembar Fotocopy Ijazah Laglizer\n
+        4.  SKHU Asli\n
+        5.  3 Lembar Fotocopy SKHU legalizer\n
+        6.  1 Lembar Fotocopy Akte Kelahiran\n
+        7.  1 Lembbar Fotocopy Kartu Penduduk\n
+        8.  Surat Keterangan Berbadan Sehat\n
+        9.  Bagi Mahasiswa Advent:\n
+        10. a. 1 Lembr Fotocopy Sertifikat Baptisan\n	(Asli ditunjukan waktu pendaftaran)\n    b. Surat Keterangan Anggota Aktif dari Pendeta\n
+        11.  Bagi Mahasiswa Pindahan :\n    a. Surat Pindah\n    b. Transcript\n    c. Surat Keterangan dari Universitas asal\n\nMasukan Berkas-berkas ke pihak BO dengan menggunakan kode dibawah ini,"
+    </string>
+
+    <string name="large_text">
+        "Akademi Sekretari Manajemen Indonesia (ASMI) Klabat.\n\n"
+
+        "Program Studi
+        "ASMI Klabat mempunyai program studi sekretari D-III yang dapat diselesaikan dalam waktu 3
+        tahun dengan total 117 SKS.Selama kurun waktu 42 tahun ASMI Klabat telah menghasilkan
+        lulusan yang telah mendapatkan pekerjaan di perusahaan swasta, asing dan pemerintah di
+        kota-kota di Indonesia dan juga di luar negeri.Untuk praktek kerja sebelum ditamatkan,
+        mahasiswa ASMI Klabat diberi kesempatan untuk magang (praktek kerja) di perusahaan-
+        perusahaan di Manado, Balikpapan, Makassar dan Surabaya.Untuk mendukung kelancaran
+        perkuliahan ASMI Klabat mempersiapkan fasilitas-fasilitas untuk mahasiswa sebagai berikut:
+        asrama, kafetaria, laboratorium bahasa, laboratorium computer, perpustakaan, tempat
+        olahraga, paduan suara.\n\n"
+        "Fakultas Filsafat\n"
+
+        "Persyaratan Penerimaan (Program Requirement)"
+        "Fakultas Filsafat menerima pria dan wanita yang menunjukan kematangan, ketertarikan, dan kecerdasan untuk mempelajari filsafat / teologi agama. Mereka yang ingin mendaftar di fakultas ini tidak harus menjadi anggota Gereja Masehi Advent Hari Ketujuh namun harus menyokong misi, tujuan-tujuan, dan nilai-nilai Gereja Masehi Advent Hari Ketujuh. Seseorang yang berencana mendapatkan gelar Sarjana Agama dari Fakultas Filsafat Universitas Klabat, selain memenuhi syarat-syarat penerimaan mahasiswa Universitas Klabat, harus juga:
+        "1.Lulus tes masuk khusus calon mahasiswa Fakultas Filsafat"
+        "2.Membawa surat pernyataan dari Pendeta atau Ketua Jemaat asal"
+        "3.Mengisi formulir khusus ketika pendaftaran memasuki semester ketiga; mahasiswa pindahan dari fakultas lain akan mengisi formulir yang sama setelah dua semester berada di fakultas ini, dan akan dievaluasi oleh komite fakultas."
+        "4.Memenuhi kriteria untuk dapat diterima pada pendaftaran semester ketiga antara lain:"
+        "a)Sekurang-kurangnya satu dari dua semester pertama mencapai akumulatif GPA 2.3"
+        "b)Telah melaporkan kepada dosen pembimbing kegiatan pelayanan sosial dan kerohanian yang dilaksanakan dua jam tiap minggu, diluar kegiatan ibadah resmi"
+        "c)Telah membuktikan kehidupan moral, tingkah laku, sikap, dan tutur kata yang sepadan dengan konteks mahasiswa Fakultas Filsafat."
+        "d)Telah menunjukan secara aktif bakat-bakat kepemimpinan."
+        "e)Memiliki ketrampilan sosial dan kesungguh-sungguhan dalam keyakinan dan profesi yang telah ditunjukan."
+        "Setelah diterima secara resmi pada Fakultas Filsafat, ternyata kemudian mahasiswa gagal mempertahankan kriteria seperti yang tercantum diatas, secara otomatis mahasiswa tersebut gugur dari fakultas dan dianjurkan memilih program pendidikan yang lebih tepat baginya.\n\n
+
+        "Fakultas Ilmu Komputer\n\n"
+        "1.Program Studi Sistem Informasi\n
+        "Program studi Sistem Informasi di Fakultas Ilmu Komputer Universitas Klabat berdiri sejak tahun 1999 pertama kali program studi ini bernama Ilmu Komputer, kemudian berubah menjadi Sistem Informasi. Pada tahun 2010 program studi ini sudah mendapatkan akreditasi dari Badan Akreditasi Nasional (BAN) dengan nomor 021/BAN-PT/Ak-XIII/S1/X/2010.
+        "Lulusan program studi Sistem Informasi akan menjadi seorang ahli dibidang Sistem Informasi, dimana mereka ini akan membuat aplikasi-aplikasi yang bermanfaat bagi manusia disegala bidang, seperti perkantoran, institusi, perhotelan, perdagangan dll. Sebuah sistem yang sebelumnya dikerjakan manual, oleh seorang ahli Sistem Informasi akan menjadi mudah, sederhana dan otomatis dengan bantuan komputer
+        "Untuk menyelesaikan program studi ini sesuai dengan kurikululm tahun 2008-2013 mahasiswa dituntut untuk menempuh sejumlah mata kuliah dengan bobot satuan kredit semester  total 154 SKS, yang bisa diselesaikan dalam waktu empat tahun..\n\n"
+        "2.Program Studi Teknik Informatika\n
+        "Program Studi Teknik Informatika Universitas Klabat dibuka untuk memenuhi kebutuhan pasar akan tenaga ahli dibidang informatika. Seorang ahli informatika (Ilmu Komputer) harus mempunyai dasar algoritma dan logika yang kuat karena ia akan merancang suatu prosedur baru, modul baru ataupun algoritma baru. Hasil rancangan dan temuan baru ini digunakan oleh tenaga ahli dari Sistem Informasi untuk dibuatkan aplikasinya, sehingga temuan tersebut bisa mempermudah dan melengkapi fasilitas kehidupan manusia.
+        "Program studi ini didirikan pada tahun 2005 pengembangan dari program studi Sistem Informasi yang sudah dulu ada. Untuk menyelesaikan program studi ini mahasiswa harus menyelesaikan dalam sks sebanyak 156 SKS.\n\n"
+        "Fakultas Keguruan dan Ilmu Pendidikan\n\n"
+        "Profil Program Studi\n"
+
+        "Program Studi S-1 Pendidikan Bahasa Inggris – Akreditasi B dari BAN-PT. Lulusan bergelar S.Pd dan bekerja sebagai Guru Bahasa Inggris di sekolah Advent, negeri (PNS) dan sekolah swasta lainnya. Lulusan lainnya bekerja di kursus, hotel, travel agen, ataupun di perusahan-perusahan lainnya, selain menjadi pengusaha."
+        "Program Studi S-1 Pendidikan Agama – Akreditasi B dari BAN-PT. Lulusan bergelar S.Pd dan bekerja sebagai Guru Agama di sekolah Advent, negeri (PNS) dan sekolah swasta lainnya.Lulusan lainnya bekerja di departemen Agama dan ataupun di perusahan-perusahan lainnya."
+        "Program Studi S-1 Pendidikan Luar Sekolah dengan Konsentrasi Pendidikan Dasar 9 Tahun – Akreditasi C dari BAN-PT. Lulusan bergelar S.Pd dan bekerja sebagai Guru kelas di SD Advent, negeri (PNS) dan sekolah swasta lainnya.Lulusan lainnya bekerja di kursus, ataupun di perusahan-perusahan lainnya."
+        "Program Studi S-1 Pendidikan Ekonomi (Konsentrasi Akuntansi, dan Konsentrasi Administrasi Dunia Usaha) – Akreditasi C dari BAN-PT.Lulusan bergelar S.Pd dan bekerja sebagai Guru di SMK ataupun SMA Advent, negeri (PNS) dan sekolah swasta lainnya. Lulusan lainnya bekerja di kursus, ataupun di perusahan-perusahan lainnya.\n\n""
+        "Fakultas Keperawatan\n\n"
+
+        "Sistem Pendidikan
+
+        "Penyelenggaraan program pendidikan tinggi pada umumnya menggunakan Sistem Kredit Semester (SKS) dan sistem ini dapat memberikan gambaran beban studi mahasiswa, beban tugas tenaga akademik, dan beban penyelenggaraan program pendidikan."
+
+        "Tujuan penerapan sistem tersebut diatas adalah:
+
+        "-Memberikan kesempatan kepada mahasiswa agar dapat menyelesaikan program studi yang telah ditentukan.
+        "-Memberikan kesempatan kepada mahasiswa agar dapat menentukan mata ajar yang sesuai pada batas-batas tertentu.
+        "-Dapat mengevaluasi kemajuan belajar mahasiswa dengan sebaik-baiknya.
+        Yang dimaksud dengan semester adalah satuan kegiatan yang terdiri atas 16-18 minggu kuliah.\n\n"
+        "Pascasarjana\n\n"
+
+        "   Persyaratan Pendaftaran\n"
+        "1.Program Pascasarjana Universitas Klabat terbuka bagi calon yang berijasah minimal sarjana S1 atau berijazah minimal ‘bachelor’ dari perguruan tinggi luar negeri yang diakreditasi oleh Departmen Pendidikan Nasional RI, dari segala bidang ilmu.\n"
+        "2.Nilai akademik IPK minimal 3.00 (pada skala 0 – 4) atau 6.25 (pada skala 0 – 10).\n"
+        "3.Apabila calon peserta bukan berlatar belakang bidang ilmu yang diminati maka peserta diharuskan mengikuti program pra-pascasarjana selama 1 Trimester, dengan total sks sebanyak 12 sks.\n"
+        "4.Memiliki kemampuan Bahasa Inggris yang dibuktikan dengan lulus tes masuk bahasa Inggris yang diselenggarakan oleh Pascasarjana Universitas Klabat atau memiliki sertifikat TOEFL dengan skor minimal 475.\n"
+        "5.Rekomendasi kelayakan akademik."\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+        "Fakultas Pertanian\n\n"
+
+        "Penerimaan Mahasiswa"
+        "Selain ketentuan umum untuk penerimaan mahasiswa Universitas Klabat, calon mahasiswa untuk Program Pendidikan Strata-1 Agronomi adalah SMA Jurusan IPA-IPS, SMK Pertanian serta lulusan Sekolah Pertanian Menengah Atas dengan nilai rata-rata kelulusan paling rendah 6. Calon mahasiswa diwajibkan mengikuti test masuk dan lulus test masuk."
+        "Fakultas Pertanian juga membuka Program Minor antara lain: Minor Agronomi sebanyak 24 – 26 SKS untuk seluruh mahasiswa dari berbagai program studi yang ada di Universitas Klabat. Selain itu untuk menambah kesempatan yang lebih luas dalam mendapatkan pekerjaan bagi sarjana agronomi bekerja di bidang pendidikan sebagai pengajar dengan mendapatkan Akta IV dan perbankan serta perkantoran maka Fakultas Pertanian membuka program Minor Pendidikan 26 SKS dan Minor Management 30 SKS.\n\n"
+        "UNKLAB Business School\n\n"
+
+        "Program Studi Akuntansi"
+
+        "Visi"
+        "Menjadi penyelenggara pendidikan dibidang akuntansi yang bermutu, berdisiplin, professional yang dilandasi oleh proses perkembangan yang serasi antara intelektual, spiritual, fisik dan social yang mampu menghasilkan lulussan akuntansi yang siap bersaing di era globalisasi.
+
+        "Misi"
+        "a)Bertekad unutk mencapai keunggulan mutu di bidang pendidikan akuntasi dan berusaha menciptakan lingkungan yang nyaman dan aman bagi mahasiswa untuk dapat mengembangakan tabiat mulia untuk kekekalan, memperoleh nilai-nilai, pengetahua dan keterampilan yang dibutuhkan untuk dan bertanggungjawab."
+        "b)Menyelenggarakan pendidikan akuntansi yang menekankan pada penelitian untuk dapat memberikan konstribusi pada pengembangan dan aplikasi ilmu akuntansi."
+        "c)Menyelenggarakan pengabdian kepada masyarakat melalui program pengembangan perekonomian masyarakat sekitar dan menjadi mitra bagi sector industry ditingkat local maupun nasional.\n\n"
+        "Program Studi Manajemen"
+
+        "Visi"
+        "Menjadi jurusan Manajemen yang bermutu, berdisiplin, dalam pendidikan, penelitian, dan pengembangan yang dilandasi oleh proses perkembangan yang serasi antara intelektual, spriritual, fisik dan social yang mampu menghasilkan lulusan Manajemen yang siap bersaing di era globalisasi."
+
+        "Misi"
+        "a)Menciptakan lingkungan yang nyaman dan aman bagi mahasiswa untuk dapat mengembangkan tabiat mulia, memperoleh nilai-nilai, pengetahuan dan ketrampilan yang dibutuhkan untuk kepemimpinan, yang memiliki komitmen pengembangan ilmu, menjadi warga Negara yang bertanggungjawab utnuk pelayanan yang tidak mementingkan diri."
+        "b)Menyelenggarakan pendidikan dibidang managemen yang menekankan pada penelitian utnuk dapat memberikan kontribusi pada pengembangan dan aplikasi ilmu, khususnya ilmu dibidang Manajemen."
+        "c)Melaksanakan pengabdian kepada masyarakat melalui program pengembangan perekonomian masyarakat sekitar, pemerintah, industri, dan menjadi mitra bagi sektor industry khususnya untuk bidang manajemen."
+    </string>
+</resources>
